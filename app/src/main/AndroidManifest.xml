@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.skripsi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_dictionary"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".TGambar"></activity>
+        <activity android:name=".SoalUjian" />
+        <activity android:name=".Ujian" />
+        <activity android:name=".KamusDetail" />
+        <activity android:name=".KamusIsi" />
+        <activity android:name=".Number" />
+        <activity android:name=".Alfabet" />
+        <activity android:name=".Grammar" />
+        <activity android:name=".Percakapan" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TebakGambar" />
+        <activity android:name=".Kamus" />
+        <activity android:name=".Belajar" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

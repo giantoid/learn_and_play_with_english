@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/cardview_shadow_start_color">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/txtNumber"
+                android:text="OK"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingHorizontal="5dp"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSpeaker"
+                android:layout_gravity="right"
+                android:background="#2196F3"
+                android:gravity="center_vertical"
+                android:src="@android:drawable/ic_lock_silent_mode_off" />
+        </GridLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
